@@ -3,13 +3,19 @@
   
     
     <entry>
-      <title>我的第一篇博客</title>
+      <title>GitHub page + Hexo 搭建个人博客</title>
       <link href="/2018/09/17/wo-de-di-yi-pian-bo-ke/"/>
       <url>/2018/09/17/wo-de-di-yi-pian-bo-ke/</url>
       
-        <content type="html"><![CDATA[]]></content>
+        <content type="html"><![CDATA[<!-- ##前言鉴于笔记记录平时学习总结的内容流通性较差，各论坛/博客平台对编辑发布的时效性要求比较高，而完全独立自主地搭建个人博客网站的成本（网站页面开发、服务器、域名等个人精力及财力耗费）较高，在开源环境下，通过github page + Hexo的方式极大地方便了各个有以上困扰的开发者。##[GitHub page](https://pages.github.com/)github page是直接托管于个人[GitHub](https://github.com/)的一项服务，可用于免费搭建个人网站/博客.###创建github账号-创建托管仓库repository -->]]></content>
       
       
+      
+        <tags>
+            
+            <tag> 工具 </tag>
+            
+        </tags>
       
     </entry>
     

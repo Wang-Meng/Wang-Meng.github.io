@@ -168,160 +168,96 @@
     </nav>
 </header>
 
-
-
-<div class="bg-cover post-cover" style="background-image: url('/medias/featureimages/0.jpg')">
+<div class="bg-cover about-cover" style="background-image: url('/medias/cover.jpg')">
     <div class="container">
         <div class="row">
-            <div class="col s12 m12 l12">
+            <div class="col s10 offset-s1 m8 offset-m2 l8 offset-l2">
                 <div class="brand">
-                    <div class="description center-align post-title">
-                        GitHub page + Hexo 搭建个人博客
+                    <div class="title center-align">
+                    
+                        Hello tomorrow
+                    
+                    </div>
+
+                    <div class="description center-align">
+                    
+                        知识就像无边的海洋，我们每天所学的只不过是沧海一粟，点滴积累也只不过是汇聚成溪，所以我们要不断地学习，不断地积累，不断地向大海靠近。
+                    
                     </div>
                 </div>
             </div>
         </div>
     </div>
 </div>
+
+<script>
+// Dynamically switch banner pictures every day.
+$('.bg-cover').css('background-image', 'url(/medias/banner/' + new Date().getDay() + '.jpg)');
+</script>
 
 <main class="content">
 
-    <!-- 文章内容详情 -->
-    <div id="artDetail" class="container">
-        <div class="card">
-            <div class="card-content article-info">
-                
-                <div class="article-tag">
-                    
-                    <a href="/tags/工具/" target="_blank"><span class="chip bg-color">工具</span></a>
-                    
-                </div>
-                
-                <div class="post-info">
-                    
+    
 
-                    <span class="post-date">
-                        <i class="fa fa-clock-o fa-fw"></i>2018-09-17
+<div id="tags" class="container chip-container">
+    <div class="card">
+        <div class="card-content">
+            <div class="tag-title center-align">Post Tags</div>
+            <div class="tag-chips">
+                
+                
+                <a href="/tags/工具/" title="工具: 1">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-active "
+                            data-tagname="工具" style="background-color: #F9EBEA;">工具
+                        <span class="tag-length">1</span>
                     </span>
-                </div>
-            </div>
-            <hr>
-            <div class="card-content article-card-content">
-                <div id="articleContent">
-                    <!-- ##前言
-鉴于笔记记录平时学习总结的内容流通性较差，各论坛/博客平台对编辑发布的时效性要求比较高，而完全独立自主地搭建个人博客网站的成本（网站页面开发、服务器、域名等个人精力及财力耗费）较高，在开源环境下，通过github page + Hexo的方式极大地方便了各个有以上困扰的开发者。
-##[GitHub page](https://pages.github.com/)
-github page是直接托管于个人[GitHub](https://github.com/)的一项服务，可用于免费搭建个人网站/博客.
-###创建github账号-创建托管仓库repository -->
-
-                </div>
-                <hr/>
-
-                <link rel="stylesheet" type="text/css" href="/libs/share/css/share.min.css">
-
-<div id="article-share">
-    
-    <div class="social-share" data-disabled="qzone, qq, weibo, douban"></div>
-    
-</div>
-
-<script src="/libs/share/js/social-share.min.js"></script>
-
-                <div class="reprint">
-                    <p>
-                        <span class="reprint-tip">Reprint please specify: </span>
-                        <a href="http://yoursite.com" class="b-link-green">WangMeng 的个人博客</a>
-                        <i class="fa fa-angle-right fa-lg fa-fw text-color"></i>
-                        <a href="/2018/09/17/wo-de-di-yi-pian-bo-ke/" class="b-link-green">GitHub page + Hexo 搭建个人博客</a>
-                    </p>
-                </div>
-            </div>
-        </div>
-
-        
-
-        
-
-        
-
-<article id="articles" class="container prev-next articles">
-    <div class="row article-row">
-        
-        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
-            <div class="article-badge left-badge text-color">Current</div>
-            <div class="card">
-                <a href="/2018/09/17/wo-de-di-yi-pian-bo-ke/">
-                    <div class="card-image">
-                        
-                        
-                        <img src="/medias/featureimages/0.jpg" class="responsive-img" alt="GitHub page + Hexo 搭建个人博客">
-                        
-                        <span class="card-title">GitHub page + Hexo 搭建个人博客</span>
-                    </div>
                 </a>
-                <div class="card-content article-content">
-                    <div class="summary">
-</div>
-                    <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="fa fa-clock-o fa-fw icon-date"></i>2018-09-17
-                            </span>
-                        <span class="publish-author">
-                            
-                            <i class="fa fa-user fa-fw"></i>
-                            WangMeng
-                            
-                        </span>
-                    </div>
-                </div>
-
-                
-                <div class="card-action article-tags">
-                    
-                    <a href="/tags/工具/" target="_blank">
-                        <span class="chip bg-color">工具</span>
-                    </a>
-                    
-                </div>
                 
             </div>
         </div>
-        
-        
-        <div class="article col s12 m6" data-aos="fade-up">
-            <div class="article-badge right-badge text-color">Next</div>
-            <div class="card">
-                <a href="/2018/09/17/hello-world/">
-                    <div class="card-image">
-                        
-                        
-                        <img src="/medias/featureimages/12.jpg" class="responsive-img" alt="Hello World">
-                        
-                        <span class="card-title">Hello World</span>
-                    </div>
-                </a>
-                <div class="card-content article-content">
-                    <div class="summary">Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hex</div>
-                    <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="fa fa-clock-o fa-fw icon-date"></i>2018-09-17
-                            </span>
-                        <span class="publish-author">
-                            
-                            <i class="fa fa-user fa-fw"></i>
-                            WangMeng
-                            
-                        </span>
-                    </div>
-                </div>
-                
-            </div>
-        </div>
-        
     </div>
-</article>
+</div>
+
+    <div class="container">
+        
+
+        <article>
+            <div class="row tags-posts">
+                
+                
+                <div class="article tag-post col s12 m6 l4" data-tags="工具" data-aos="fade-up">
+                    <div class="card">
+                        <a href="/2018/09/17/wo-de-di-yi-pian-bo-ke/">
+                            <div class="card-image tag-image">
+                                
+                                
+                                <img src="/medias/featureimages/0.jpg" class="responsive-img" alt="GitHub page + Hexo 搭建个人博客">
+                                
+                                <span class="card-title">GitHub page + Hexo 搭建个人博客</span>
+                            </div>
+                        </a>
+                        <div class="card-content article-content">
+                            <div class="publish-info">
+                                <span class="publish-date">
+                                    <i class="fa fa-clock-o fa-fw icon-date"></i>2018-09-17
+                                </span>
+                                <span class="publish-author">
+                                    
+                                    <i class="fa fa-user fa-fw"></i>
+                                    WangMeng
+                                    
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </article>
     </div>
 </main>
+
 
 <footer class="page-footer bg-color">
     <div class="container row center-align">
