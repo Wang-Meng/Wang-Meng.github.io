@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-10-20T08:10:50.132Z</updated>
+  <updated>2018-10-21T10:46:45.982Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="http://yoursite.com/2018/09/17/wo-de-di-yi-pian-bo-ke/"/>
     <id>http://yoursite.com/2018/09/17/wo-de-di-yi-pian-bo-ke/</id>
     <published>2018-09-17T12:51:47.000Z</published>
-    <updated>2018-10-20T08:10:50.132Z</updated>
+    <updated>2018-10-21T10:46:45.982Z</updated>
     
     <summary type="html">
     
@@ -29,8 +29,7 @@
       
         
         
-          &lt;!-- ##前言
-鉴于笔记记录平时学习总结的内容流通性较差，各论坛/博客平台对编辑发布的时效性要求比较高，而完全独立自主地搭建个人博客网站的成本（网站页面开发、服务器、域名等个人精力及财力耗费）较高，在开源环境下，通过github page +
+          &lt;h1 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot;
         
       
     
